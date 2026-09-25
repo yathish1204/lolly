@@ -1,0 +1,1382 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creator Relationship Management &amp; ROI | Lolly</title>
+  <meta name="description"
+    content="Manage creator relationships, content, rights and performance while connecting partnerships to measurable revenue and ROI.">
+  <meta name="keywords"
+    content="creator relationship management platform, influencer CRM, creator ROI tracking, creator performance management, influencer relationship software">
+
+  <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.cdnfonts.com">
+  <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- Functionality Script -->
+  <script src="./assets/js/main.js" defer></script>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body class="bg-white text-primary antialiased overflow-x-hidden">
+
+  <!-- HEADER -->
+  <header class="sticky top-0 z-50 bg-white border-b border-slate-100/80">
+    <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 h-18 flex-between-center">
+
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center gap-1.5 font-gilroy-bold tracking-tight text-primary">
+        <span class="text-[28px]">lolly</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="hidden lg:flex items-center gap-7">
+        <a href="#why-it-matters" class="nav-link">Why It Matters</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#meet-ana" class="nav-link">Meet Ana</a>
+        <a href="#built-for-teams" class="nav-link">Built for Teams</a>
+      </nav>
+
+      <!-- Right Action Buttons -->
+      <div class="hidden lg:flex">
+        <a href="#" class="button-primary">
+          Book a demo <span class="text-base"></span>
+        </a>
+      </div>
+
+      <!-- Hamburger Button -->
+      <div class="flex items-center gap-3 lg:hidden">
+        <button id="menu-toggle-btn" type="button" aria-label="Toggle Navigation Menu"
+          class="p-2 rounded-xl text-slate-800 hover:bg-slate-100 focus:outline-none transition-colors">
+          <svg id="hamburger-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- MOBILE DRAWER MENU -->
+  <div id="mobile-drawer"
+    class="fixed inset-0 z-50 bg-white/98 backdrop-blur-2xl flex flex-col justify-between p-6 sm:p-8 transition-all duration-300 transform translate-x-full pointer-events-none opacity-0 lg:hidden">
+
+    <div class="flex-between-center pb-6 border-b border-slate-100">
+      <a href="#" class="flex items-center gap-1.5 font-gilroy-bold text-primary">
+        <span class="text-[28px]">lolly</span>
+      </a>
+      <button id="menu-close-btn" type="button" aria-label="Close Menu"
+        class="p-2 rounded-full text-slate-700 hover:bg-slate-100 focus:outline-none transition-colors">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+
+    <div class="flex-1 py-8 overflow-y-auto flex flex-col gap-6">
+      <div class="space-y-4">
+        <a href="#why-it-matters" class="mobile-nav-link">
+          Why It Matters
+        </a>
+        <a href="#how-it-works" class="mobile-nav-link">
+          How It Works
+        </a>
+        <a href="#meet-ana" class="mobile-nav-link">
+          Meet Ana
+        </a>
+        <a href="#built-for-teams" class="mobile-nav-link">
+          Built for Teams
+        </a>
+      </div>
+    </div>
+
+    <!-- Drawer Footer -->
+    <div class="pt-6 border-t border-slate-100 flex flex-col gap-3">
+      <a href="#" class="button-primary w-full">
+        Book a demo &rarr;
+      </a>
+    </div>
+
+  </div>
+
+  <!-- HERO SECTION -->
+  <section
+    class="relative min-h-[calc(100vh-80px)] flex items-start pt-6 pb-12 sm:pt-8 sm:pb-14 lg:py-12 xl:py-14 overflow-hidden bg-white">
+
+    <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-6 xl:gap-10 items-start">
+
+        <!-- LEFT COLUMN: CONTENT -->
+        <div class="lg:col-span-5 flex flex-col items-start text-left z-10 pt-1 lg:pt-2">
+
+          <div
+            class="inline-flex items-center px-4 py-1.5 rounded-lg bg-[#ECE7FF] text-lolly-purple text-xs sm:text-sm font-semibold mb-5 sm:mb-6">
+            <span>Creator Relationship &amp; ROI Management</span>
+          </div>
+
+          <h1 class="hero-title text-4xl lg:text-6xl text-primary leading-[1.12] sm:leading-[1.1] mb-5">
+            Turn Creator<br />
+            Relationships Into<br />
+            <span class="text-lolly-purple">Long Term Growth</span>
+          </h1>
+
+          <p
+            class="hero-subtitle text-sm sm:text-base text-slate-600 font-normal leading-relaxed mb-6 sm:mb-8 max-w-lg">
+            Bring creator relationships, activity and performance into one connected view using Lolly. Understand who is
+            driving value, where relationships stand and where to invest next.
+          </p>
+
+          <!-- CTAs Container -->
+          <div class="flex items-center gap-4">
+            <a href="#" class="button-primary">
+              Book a demo <span class="">&rarr;</span>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- RIGHT COLUMN-->
+        <div class="lg:col-span-7 relative flex items-start justify-center lg:justify-end pt-2 sm:pt-4 lg:pt-0">
+
+          <div
+            class="relative w-full max-w-[440px] sm:max-w-[540px] md:max-w-[580px] lg:max-w-[540px] xl:max-w-[620px] 2xl:max-w-[660px] mx-auto lg:mr-0 flex items-center justify-center scale-[0.86] xs:scale-[0.94] sm:scale-100 origin-center my-2 sm:my-0">
+
+            <!--FLOATING CIRCULAR BACKDROP-->
+            <div
+              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[260px] sm:w-[340px] md:w-[380px] lg:w-[400px] xl:w-[440px] h-[260px] sm:h-[340px] md:h-[380px] lg:h-[400px] xl:h-[440px] rounded-full bg-linear-to-b from-light-purple via-[#E2D9FF] to-[#D5C7FF] opacity-90 z-0 pointer-events-none shadow-inner">
+            </div>
+
+            <!--AMBIENT GLOW CIRCLES-->
+            <div
+              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] sm:w-[380px] lg:w-[460px] h-[300px] sm:h-[380px] lg:h-[460px] bg-[#aa9ef4]/25 rounded-full blur-[90px] pointer-events-none z-0">
+            </div>
+            <div
+              class="absolute -top-6 -right-6 w-[180px] sm:w-[260px] lg:w-[300px] h-[180px] sm:h-[260px] lg:h-[300px] bg-lolly-purple/15 rounded-full blur-[80px] pointer-events-none z-0">
+            </div>
+
+            <!-- HERO IMAGE-->
+            <div class="relative z-20 w-full flex justify-center">
+              <img
+                src="https://res.cloudinary.com/ddzrfwfsl/image/upload/q_auto,f_auto,w_1000/v1790307767/hero-brand-img_uq2cgl.png"
+                srcset="https://res.cloudinary.com/ddzrfwfsl/image/upload/q_auto,f_auto,w_600/v1790307767/hero-brand-img_uq2cgl 700w,
+                https://res.cloudinary.com/ddzrfwfsl/image/upload/q_auto,f_auto,w_1000/v1790307767/hero-brand-img_uq2cgl 1000w"
+                sizes="(max-width: 699px) 100vw, 1000px" fetchpriority="high" alt="Creator in Lolly Platform"
+                class="w-auto h-auto max-h-[380px] sm:max-h-[440px] md:max-h-[480px] lg:max-h-[440px] xl:max-h-[490px] 2xl:max-h-[520px] max-w-full object-contain select-none pointer-events-none drop-shadow-[0_15px_30px_rgba(91,43,232,0.10)]"
+                loading="eager" />
+            </div>
+
+            <!--FLOATING CARD 1-->
+            <div
+              class="absolute -top-4 -left-4 sm:-top-6 sm:-left-6 lg:-left-8 bg-white/95 backdrop-blur-md p-3 sm:p-4 rounded-2xl sm:rounded-3xl border border-white/80 shadow-[0_12px_32px_rgba(91,43,232,0.12)] w-[190px] sm:w-[230px] md:w-[250px] ">
+              <div class="flex items-center gap-2 sm:gap-2.5 mb-2.5">
+                <img src="./assets/images/maya.jpg" alt="Taylor Kim"
+                  class="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover border border-slate-100 shadow-xs" />
+                <div class="min-w-0">
+                  <div class="flex items-center gap-1">
+                    <span class="text-xs sm:text-sm font-gilroy-bold text-slate-900 truncate">Taylor Kim</span>
+                    <svg class="w-3.5 h-3.5 text-[#3B82F6] shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <span class="text-[10px] sm:text-[11px] text-slate-400 font-gilroy-medium block truncate">Lifestyle
+                    &amp;
+                    Wellness</span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-3 gap-1 mb-2.5 text-left border-y border-slate-100/80 py-1.5">
+                <div>
+                  <span class="text-xs sm:text-sm font-gilroy-bold text-slate-900 block leading-tight">250K</span>
+                  <span class="text-[9px] sm:text-[10px] text-slate-400 font-gilroy-medium block">Followers</span>
+                </div>
+                <div>
+                  <span class="text-xs sm:text-sm font-gilroy-bold text-slate-900 block leading-tight">4.8%</span>
+                  <span class="text-[9px] sm:text-[10px] text-slate-400 font-gilroy-medium block">Eng. Rate</span>
+                </div>
+                <div>
+                  <span class="text-xs sm:text-sm font-gilroy-bold text-slate-900 block leading-tight">$12.4K</span>
+                  <span class="text-[9px] sm:text-[10px] text-slate-400 font-gilroy-medium block">Revenue</span>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-1 sm:gap-1.5 flex-wrap">
+                <span
+                  class="px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-600 text-[8px] sm:text-[9px] font-gilroy-bold border border-emerald-100">
+                  Active Partner
+                </span>
+                <span
+                  class="px-2 py-0.5 rounded-full bg-[#ECE7FF] text-lolly-purple text-[8px] sm:text-[9px] font-gilroy-bold border border-purple-100">
+                  High ROI
+                </span>
+                <span
+                  class="px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 text-[8px] sm:text-[9px] font-gilroy-bold border border-slate-200/60">
+                  U.S.
+                </span>
+              </div>
+            </div>
+
+
+            <!--FLOATING CARD 2-->
+            <div
+              class="absolute top-[152px] sm:top-[172px] -left-2 sm:-left-6 lg:-left-6 xl:-left-10 z-20 flex flex-col gap-1.5 sm:gap-2">
+              <div
+                class="bg-white/95 backdrop-blur-md px-2.5 py-1.5 sm:px-3.5 sm:py-2 rounded-xl sm:rounded-2xl border border-white/80 shadow-[0_8px_20px_rgba(0,0,0,0.06)] flex items-center gap-2 sm:gap-2.5 w-max">
+                <div class="w-4 h-4 sm:w-5 sm:h-5 rounded-lg bg-light-purple flex items-center justify-center">
+                  <svg class="w-2.5 h-2.5 sm:w-3 sm:h-3 text-lolly-purple" fill="currentColor" viewBox="0 0 20 20">
+                    <path
+                      d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z" />
+                  </svg>
+                </div>
+                <span class="text-[10px] sm:text-xs font-gilroy-bold text-slate-700">Content</span>
+              </div>
+
+              <div
+                class="bg-white/95 backdrop-blur-md px-2.5 py-1.5 sm:px-3.5 sm:py-2 rounded-xl sm:rounded-2xl border border-white/80 shadow-[0_8px_20px_rgba(0,0,0,0.06)] flex items-center gap-2 sm:gap-2.5 w-max">
+                <div class="w-4 h-4 sm:w-5 sm:h-5 rounded-lg bg-light-purple flex items-center justify-center">
+                  <svg class="w-2.5 h-2.5 sm:w-3 sm:h-3 text-lolly-purple" fill="none" stroke="currentColor"
+                    stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                  </svg>
+                </div>
+                <span class="text-[10px] sm:text-xs font-gilroy-bold text-slate-700">Campaigns</span>
+              </div>
+
+              <div
+                class="bg-white/95 backdrop-blur-md px-2.5 py-1.5 sm:px-3.5 sm:py-2 rounded-xl sm:rounded-2xl border border-white/80 shadow-[0_8px_20px_rgba(0,0,0,0.06)] flex items-center gap-2 sm:gap-2.5 w-max">
+                <div class="w-4 h-4 sm:w-5 sm:h-5 rounded-lg bg-light-purple flex items-center justify-center">
+                  <svg class="w-2.5 h-2.5 sm:w-3 sm:h-3 text-lolly-purple" fill="none" stroke="currentColor"
+                    stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                </div>
+                <span class="text-[10px] sm:text-xs font-gilroy-bold text-slate-700">Rights</span>
+              </div>
+
+              <div
+                class="bg-white/95 backdrop-blur-md px-2.5 py-1.5 sm:px-3.5 sm:py-2 rounded-xl sm:rounded-2xl border border-white/80 shadow-[0_8px_20px_rgba(0,0,0,0.06)] flex items-center gap-2 sm:gap-2.5 w-max">
+                <div class="w-4 h-4 sm:w-5 sm:h-5 rounded-lg bg-light-purple flex items-center justify-center">
+                  <svg class="w-2.5 h-2.5 sm:w-3 sm:h-3 text-lolly-purple" fill="currentColor" viewBox="0 0 20 20">
+                    <path
+                      d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" />
+                  </svg>
+                </div>
+                <span class="text-[10px] sm:text-xs font-gilroy-bold text-slate-700">Performance</span>
+              </div>
+            </div>
+
+            <!--FLOATING CARD 3-->
+            <div
+              class="absolute top-10 sm:top-14 -right-4 sm:-right-6 lg:-right-4 bg-white/95 backdrop-blur-md p-3 sm:p-4 rounded-2xl sm:rounded-3xl border border-white/80 shadow-[0_12px_32px_rgba(91,43,232,0.12)] w-[165px] sm:w-[195px] md:w-[215px]">
+              <div class="flex-between-center gap-1 mb-2">
+                <span class="text-[10px] sm:text-xs font-gilroy-bold text-slate-800">Revenue Influenced</span>
+                <span class="text-[10px] sm:text-xs font-gilroy-bold text-emerald-500 flex items-center gap-0.5">
+                  <svg class="w-2.5 h-2.5 sm:w-3 sm:h-3" fill="none" stroke="currentColor" stroke-width="2.5"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+                  </svg>
+                  32%
+                </span>
+              </div>
+
+              <div class="flex items-end justify-between gap-1.5 sm:gap-2 h-14 sm:h-16 pt-2 px-1">
+                <div class="w-2 sm:w-2.5 h-3 rounded-full bg-[#ECE7FF]"></div>
+
+                <div class="w-2 sm:w-2.5 h-5 rounded-full bg-[#DDD6FE]"></div>
+
+                <div class="w-2 sm:w-2.5 h-9 rounded-full bg-lolly-purple shadow-xs"></div>
+
+                <div class="w-2 sm:w-2.5 h-8 rounded-full bg-[#DDD6FE]"></div>
+
+                <div class="w-2 sm:w-2.5 h-11 rounded-full bg-[#A78BFA]"></div>
+
+                <div class="w-2 sm:w-2.5 h-13 rounded-full bg-[#7C3AED]"></div>
+
+                <div class="w-2 sm:w-2.5 h-16 rounded-full bg-lolly-purple"></div>
+              </div>
+            </div>
+
+            <!--FLOATING CARD 4-->
+            <div
+              class="absolute bottom-1 sm:bottom-4 -right-2 sm:-right-2 z-20 bg-white/95 backdrop-blur-md p-2.5 sm:p-3.5 rounded-2xl sm:rounded-3xl border border-white/80 shadow-[0_12px_32px_rgba(91,43,232,0.12)] w-[170px] sm:w-[205px] md:w-[220px]">
+
+              <div class="flex items-center mb-1.5">
+                <img src="./assets/images/maya.jpg" alt="Creator 1" class="creator-img z-30" />
+                <img src="./assets/images/neha.png" onerror="this.src='./assets/images/maya.jpg'" alt="Creator 2"
+                  class="creator-img -ml-2 z-20" />
+                <img src="./assets/images/john.png" onerror="this.src='./assets/images/maya.jpg'" alt="Creator 3"
+                  class="creator-img -ml-2 z-10" />
+                <div
+                  class="w-6 h-6 sm:w-7 sm:h-7 rounded-full bg-lolly-purple text-white flex items-center justify-center font-gilroy-bold text-[10px] sm:text-xs border-2 border-white shadow-xs -ml-2 z-0">
+                  +
+                </div>
+              </div>
+
+              <p class="text-[10px] sm:text-xs font-gilroy-medium text-slate-800 leading-snug">
+                A growing creator network for what's next.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 1: WHY IT MATTERS -->
+  <section id="why-it-matters" class="py-16 lg:py-24 relative overflow-hidden scroll-mt-20">
+
+    <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-14 items-start">
+
+        <!-- LEFT COLUMN -->
+        <div class="lg:col-span-6 flex flex-col items-start text-left">
+
+          <h2 class="h2-title text-3xl md:text-5xl leading-[1.12] mb-6">
+            From Creator Relationships<br />
+            to <span class="text-lolly-purple">Business Outcomes</span>
+          </h2>
+
+          <p class="description">
+            Creator programs become harder to scale when relationship history, content, rights, communication and
+            performance live in different places. Lolly gives teams one operating layer for managing partners and
+            understanding the value created over time.
+          </p>
+
+          <!-- 4-Step Horizontal Process Stepper -->
+          <div class="w-full max-w-lg">
+            <div class="flex-between-center w-full relative">
+
+              <div class="absolute top-5 sm:top-6 left-6 right-6 h-0 border-t-2 border-dashed border-slate-200 z-0">
+              </div>
+
+              <div class="stepper-item">
+                <div class="stepper-icon-box stepper-purple">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+                  </svg>
+                </div>
+                <span class="stepper-label">Organize</span>
+              </div>
+
+              <div class="stepper-item">
+                <div class="stepper-icon-box stepper-blue">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>
+                </div>
+                <span class="stepper-label">Engage</span>
+              </div>
+
+              <div class="stepper-item">
+                <div class="stepper-icon-box stepper-emerald">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                  </svg>
+                </div>
+                <span class="stepper-label">Understand</span>
+              </div>
+
+              <div class="stepper-item">
+                <div class="stepper-icon-box stepper-sky">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                  </svg>
+                </div>
+                <span class="stepper-label">Scale</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div class="lg:col-span-6 relative pt-4 pb-8 sm:pb-10 lg:py-4 w-full max-w-lg mx-auto">
+
+          <div class="relative w-full max-w-4xl mx-auto">
+
+            <div
+              class="relative bg-light-purple pt-5 pl-5 sm:pt-8 sm:pl-8 lg:pt-10 lg:pl-10 pr-0 pb-0 rounded-[28px] sm:rounded-[36px] shadow-sm overflow-hidden flex justify-end items-end">
+
+              <div
+                class="rounded-tl-2xl sm:rounded-tl-3xl overflow-hidden border-t border-l border-white/90 shadow-[0_20px_50px_-15px_rgba(91,43,232,0.18)] bg-white w-full">
+                <img
+                  src="https://res.cloudinary.com/ddzrfwfsl/image/upload/q_auto,f_auto,w_1000/v1790307762/heroImg-lolly_isykaq.png"
+                  alt="Lolly Creator Performance Dashboard"
+                  class="w-[105%] sm:w-[108%] max-w-none h-auto object-cover object-top-left block" />
+              </div>
+
+            </div>
+
+            <!-- FLOATING CARD 1 -->
+            <div
+              class="absolute -bottom-6 -right-0 sm:-bottom-8 sm:-right-4 md:-bottom-8 md:-right-6 z-20 bg-white/98 backdrop-blur-md p-3 sm:p-4 rounded-2xl border border-slate-100 shadow-[0_20px_45px_rgba(91,43,232,0.18)] w-[210px] sm:w-[250px] md:w-[270px]">
+
+              <div class="flex-between-center mb-2">
+                <div class="flex items-center gap-1.5">
+                  <span class="text-sm text-lolly-purple">✦</span>
+                  <span class="font-gilroy-bold text-xs sm:text-sm text-slate-900">Ana</span>
+                  <span
+                    class="px-2 py-0.5 rounded-full bg-light-purple text-lolly-purple text-[9px] sm:text-[10px] font-gilroy-bold">
+                    AI Analyst
+                  </span>
+                </div>
+              </div>
+
+              <div class="hidden sm:block bg-slate-50 rounded-xl p-2 sm:p-2.5 mb-2.5 border border-slate-100">
+                <p class="text-[10px] sm:text-[11px] text-slate-800 font-medium leading-snug">
+                  Which creators should we invest in next?
+                </p>
+              </div>
+
+              <!-- Action Bar -->
+              <div class="flex-between-center bg-slate-50/90 rounded-xl px-2.5 py-1 border border-slate-200/60">
+                <span class="text-[9px] sm:text-[10px] text-slate-400 font-medium">Get recommendations</span>
+                <button
+                  class="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-lolly-purple text-white flex items-center justify-center text-[10px] sm:text-xs font-gilroy-bold hover:bg-dark-purple transition-colors shadow-xs">
+                  &rarr;
+                </button>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: HOW IT WORKS -->
+  <section id="how-it-works" class="py-16 sm:py-20 lg:py-24 relative overflow-hidden bg-light-purple scroll-mt-20">
+
+    <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+
+      <!-- Section Header -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+        <div class="max-w-2xl">
+          <h2 class="h2-title text-3xl md:text-5xl leading-[1.12] mb-6">
+            Intelligence to <br class="hidden sm:inline" />
+            Manage Relationships &amp; Prove ROI
+          </h2>
+
+          <p class="description">
+            Lolly brings together creator data, relationship context, content, and performance so teams can work
+            smarter, move faster, and prove the impact of every partnership.
+          </p>
+        </div>
+
+        <div class="hidden lg:flex shrink-0 pb-1">
+          <a href="#" class="button-primary">
+            See Lolly's capabilities <span class="text-lg leading-none">&rarr;</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- BENTO GRID -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4 md:gap-6  md:mt-8 items-stretch">
+
+        <!-- Card 01 -->
+        <div
+          class="md:col-span-1 lg:col-span-2 bg-white rounded-3xl pb-0 p-6 relative overflow-hidden h-70 md:h-80 border border-purple-100/60 group">
+          <div class="relative z-10">
+            <h3 class="bento-card-title">
+              Unified creator profiles
+            </h3>
+
+            <p class="bento-card-description">
+              Bring creator profiles, history, partner context and campaign activity into one view.
+            </p>
+          </div>
+
+          <div
+            class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[88%] sm:w-[84%] max-w-[340px] flex items-end justify-center pointer-events-none group-hover:scale-[1.02] transition-scale duration-300">
+            <img
+              src="https://res.cloudinary.com/ddzrfwfsl/image/upload/q_auto,f_auto/v1790307847/Unified_creator_profiles_ry7d9w.png"
+              alt="Unified creator profiles"
+              class="w-auto max-w-full h-auto max-h-44 sm:max-h-48 md:max-h-52 object-contain object-bottom group-hover:scale-[1.03] transition-transform duration-500"
+              loading="lazy" />
+          </div>
+        </div>
+
+        <!-- Card 02 -->
+        <div
+          class="md:col-span-1 lg:col-span-2 bg-white rounded-3xl p-6 pb-0 relative overflow-hidden h-70 md:h-80 border border-purple-100/60 group ">
+          <div class="relative z-10">
+            <h3 class="bento-card-title">
+              Relationship management
+            </h3>
+
+            <p class="bento-card-description">
+              Track outreach, conversations, notes, status and engagement terms.
+            </p>
+          </div>
+
+          <div
+            class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[88%] sm:w-[84%] max-w-[340px] flex items-end justify-center pointer-events-none group-hover:scale-[1.02] transition-scale duration-300">
+            <img
+              src="https://res.cloudinary.com/ddzrfwfsl/image/upload/q_auto,f_auto/v1790307847/Relationship_management_x1b3yp.png"
+              alt="Relationship management"
+              class="w-auto max-w-full h-auto max-h-44 sm:max-h-48 md:max-h-52 object-contain object-bottom group-hover:scale-[1.03] transition-transform duration-500"
+              loading="lazy" />
+          </div>
+        </div>
+
+        <!-- Card 03-->
+        <div
+          class="md:col-span-2 lg:col-span-2 bg-white rounded-3xl p-6 pb-0 relative overflow-hidden h-70 md:h-50 md:h-[210px] lg:h-80 border border-purple-100/60 group flex flex-col md:flex-row lg:flex-col md:items-center lg:items-stretch md:justify-between">
+          <div class="relative z-10 max-w-sm md:w-1/2 lg:w-full md:self-start lg:self-auto">
+            <h3 class="bento-card-title">
+              Content &amp; rights management
+            </h3>
+
+            <p class="bento-card-description">
+              Manage creator content, assets, usage, and licensing rights.
+            </p>
+          </div>
+
+          <div
+            class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[88%] sm:w-[84%] max-w-[340px] flex items-end justify-center pointer-events-none md:relative md:bottom-auto md:left-auto md:translate-x-0 md:w-1/2 md:h-full md:flex md:items-center md:justify-end lg:absolute lg:bottom-0 lg:left-1/2 lg:-translate-x-1/2 lg:w-[88%] lg:max-w-[340px] lg:items-end lg:justify-cente group-hover:scale-[1.02] transition-scale duration-300">
+            <img
+              src="https://res.cloudinary.com/ddzrfwfsl/image/upload/q_auto,f_auto/v1790307848/Content___rights_management_jgwbdm.png"
+              alt="Content &amp; rights management"
+              class="w-auto max-w-full h-auto max-h-44 sm:max-h-48 md:max-h-[175px] lg:max-h-52 object-contain object-bottom md:object-contain lg:object-bottom group-hover:scale-[1.03] transition-transform duration-500"
+              loading="lazy" />
+          </div>
+        </div>
+
+        <!-- Card 04-->
+        <div
+          class="md:col-span-1 lg:col-span-3 bg-white rounded-3xl p-6 pb-0 relative overflow-hidden h-70 md:h-80 lg:h-50 lg:h-[210px] border border-purple-100/60 group flex flex-col lg:flex-row lg:items-center lg:justify-between">
+
+          <div class="relative z-10 lg:w-1/2 lg:self-start lg:pt-1">
+            <h3 class="bento-card-title">
+              Performance intelligence
+            </h3>
+
+            <p class="bento-card-description">
+              Compare creator performance across campaigns and channels.
+            </p>
+          </div>
+
+          <div
+            class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[88%] sm:w-[84%] max-w-[340px] flex items-end justify-center pointer-events-none lg:relative lg:bottom-auto lg:left-auto lg:translate-x-0 lg:w-1/2 lg:h-full lg:max-w-none lg:items-center lg:justify-end group-hover:scale-[1.02] transition-scale duration-300">
+            <img
+              src="https://res.cloudinary.com/ddzrfwfsl/image/upload/q_auto,f_auto/v1790307847/Performance_intelligence_lijlu9.png"
+              alt="Performance intelligence"
+              class="w-auto max-w-full h-auto max-h-44 sm:max-h-48 md:max-h-52 lg:max-h-[175px] object-contain object-bottom lg:object-contain group-hover:scale-[1.03] transition-transform duration-500"
+              loading="lazy" />
+          </div>
+        </div>
+
+        <!-- Card 05-->
+        <div
+          class="md:col-span-1 lg:col-span-3 bg-white rounded-3xl p-6 pb-0 relative overflow-hidden h-70 md:h-80 lg:h-50 lg:h-[210px] border border-purple-100/60 group flex flex-col lg:flex-row lg:items-center lg:justify-between">
+          <div class="relative z-10 lg:w-1/2 lg:self-start lg:pt-1">
+            <h3 class="bento-card-title">
+              ROI intelligence
+            </h3>
+
+            <p class="bento-card-description">
+              Identify top performing creators and understand where to invest next.
+            </p>
+          </div>
+
+          <div
+            class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[88%] sm:w-[84%] max-w-[340px] flex items-end justify-center pointer-events-none lg:relative lg:bottom-auto lg:left-auto lg:translate-x-0 lg:w-1/2 lg:h-full lg:max-w-none lg:items-center lg:justify-end group-hover:scale-[1.02] transition-scale duration-300">
+            <img
+              src="https://res.cloudinary.com/ddzrfwfsl/image/upload/q_auto,f_auto/v1790307847/ROI_intelligence_msy1lc.png"
+              alt="ROI intelligence"
+              class="w-auto max-w-full h-auto max-h-44 sm:max-h-48 md:max-h-52 lg:max-h-[175px] object-contain object-bottom lg:object-contain group-hover:scale-[1.03] transition-transform duration-500"
+              loading="lazy" />
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Centered CTA -->
+      <div class="flex items-center justify-center lg:hidden pt-8 text-center">
+        <a href="#" class="button-primary">
+          See Lolly's capabilities <span class="text-lg leading-none">&rarr;</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 3: MEET ANA-->
+  <section id="meet-ana" class="py-16 lg:py-24 relative overflow-hidden scroll-mt-20">
+    <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-14 items-center">
+
+        <!-- LEFT COLUMN-->
+        <div class="lg:col-span-7 flex flex-col items-start text-left">
+
+          <h2 class="h2-title text-3xl md:text-5xl leading-[1.12] mb-6">
+            Your AI Analyst for <br />
+            <span class="text-lolly-purple">Creator Relationships &amp; ROI</span>
+          </h2>
+
+          <p class="description">
+            Ask Ana to find, connect, and analyze creator data across your entire partnership lifecycle.
+          </p>
+
+          <div class="feature-list">
+            <!-- Item 1 -->
+            <div class="feature-item">
+              <div class="feature-icon-box bg-purple-100/80">
+                <img src="assets/images/meetana/find_understand_creators.png" alt="Find &amp; understand creators"
+                  class="feature-icon-img" loading="lazy" />
+              </div>
+              <div class="feature-content">
+                <h3 class="feature-title">Find &amp; understand creators</h3>
+                <p class="feature-desc">Surface relevant creators and their history.</p>
+              </div>
+            </div>
+
+            <!-- Item 2-->
+            <div class="feature-item">
+              <div class="feature-icon-box bg-blue-100/80">
+                <img src="assets/images/meetana/track_relation_ships.png" alt="Track relationships"
+                  class="feature-icon-img" loading="lazy" />
+              </div>
+              <div class="feature-content">
+                <h3 class="feature-title">Track relationships</h3>
+                <p class="feature-desc">Summarize outreach, conversations, terms, and engagement.</p>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="feature-item">
+              <div class="feature-icon-box bg-teal-100/80">
+                <img src="assets/images/meetana/manage_content_rights.png" alt="Manage content &amp; rights"
+                  class="feature-icon-img" loading="lazy" />
+              </div>
+              <div class="feature-content">
+                <h3 class="feature-title">Manage content &amp; rights</h3>
+                <p class="feature-desc">Track content, assets, usage, and licensing context.</p>
+              </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="feature-item">
+              <div class="feature-icon-box bg-purple-100/80">
+                <img src="assets/images/meetana/analyse_performance.png" alt="Analyze performance"
+                  class="feature-icon-img" loading="lazy" />
+              </div>
+              <div class="feature-content">
+                <h3 class="feature-title">Analyze performance</h3>
+                <p class="feature-desc">Compare creator performance across campaigns and channels.</p>
+              </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="feature-item">
+              <div class="feature-icon-box bg-blue-100/80">
+                <img src="assets/images/meetana/guide_investment.png" alt="Guide investment" class="feature-icon-img"
+                  loading="lazy" />
+              </div>
+              <div class="feature-content">
+                <h3 class="feature-title">Guide investment</h3>
+                <p class="feature-desc">Identify high-value creators and where to invest next.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Left CTA Action Row -->
+          <div class="flex flex-wrap items-center gap-4">
+            <a href="#" class="button-primary">
+              Ask Ana <span class="text-lg">&rarr;</span>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div class="w-full lg:col-span-5 relative max-w-lg mx-auto lg:max-w-none lg:mx-0">
+
+          <!-- Outer Ambient Glow behind Chatbot -->
+          <div
+            class="absolute -top-10 -right-10 w-[300px] sm:w-[380px] md:w-[420px] h-[300px] sm:h-[380px] md:h-[420px] bg-[#aa9ef4]/20 rounded-full blur-[90px] sm:blur-[110px] pointer-events-none">
+          </div>
+
+          <!-- Chatbot Container Window -->
+          <div
+            class="relative z-10 w-full bg-white rounded-3xl border border-slate-200/80 shadow-[0_25px_60px_-15px_rgba(91,43,232,0.14)] overflow-hidden flex flex-col min-h-[480px] sm:min-h-[520px]">
+
+            <!-- Chatbot Header-->
+            <div class="flex-between-center px-4 sm:px-6 py-3.5 sm:py-4 border-b border-slate-100 bg-slate-50/40">
+              <div class="flex items-center gap-3">
+                <div
+                  style="width:38px;height:38px;flex-shrink:0;border-radius:999px;overflow:hidden;background:#FFFFFF;box-shadow:inset 0 0 0 1px rgba(106,75,242,0.16)">
+                  <span
+                    style="display:block;width:100%;height:100%;position:relative;overflow:hidden;filter:brightness(2.118) invert(1)"><span
+                      style="position:absolute;inset:0;isolation:isolate;background:#000000"><video preload="auto"
+                        autoplay="" loop="" muted="" playsinline="" poster="/assets/images/favicon.png"
+                        style="display:block;width:100%;height:100%;object-fit:cover;filter:grayscale(1)">
+                        <source src="https://d2tyzie05gmtbh.cloudfront.net/videos/orb-vp9.webm" type="video/webm">
+                        <source src="https://d2tyzie05gmtbh.cloudfront.net/videos/orb-h264.mp4" type="video/mp4">
+                      </video><span aria-hidden="true"
+                        style="position:absolute;inset:0;background:rgb(211, 255, 18);mix-blend-mode:multiply;pointer-events:none"></span></span></span>
+                </div>
+                <h4 class="font-gilroy-bold text-secondary text-sm sm:text-base leading-none mb-0.5">Ask Ana</h4>
+              </div>
+              <button class="text-tertiary text-lg font-gilroy-semibold px-2 py-1">•••</button>
+            </div>
+
+            <!-- Chatbot Body -->
+            <div id="ana-chat-body"
+              class="flex-1 p-4 sm:p-5 md:p-6 overflow-y-auto space-y-3 sm:space-y-4 flex flex-col justify-start">
+
+              <!--User Prompt -->
+              <div id="ana-user-msg"
+                class="self-end max-w-[88%] sm:max-w-[78%] transition-all duration-500 opacity-0 translate-y-3">
+                <div
+                  class="bg-light-purple text-lolly-purple/60 px-3.5 sm:px-4 py-2.5 sm:py-3 rounded-2xl rounded-tr-xs font-gilroy-medium text-xs sm:text-sm shadow-xs">
+                  Which creators should we invest in next?
+                </div>
+                <div
+                  class="text-[10px] text-slate-400 font-gilroy-bold text-right mt-1 flex items-center justify-end gap-1">
+                  <span>10:24 AM</span>
+                  <span class="text-lolly-purple">✓✓</span>
+                </div>
+              </div>
+
+              <!-- Ana Loading Indicator -->
+              <div id="ana-thinking-bubble"
+                class="self-start max-w-[85%] sm:max-w-[80%] flex items-center gap-2.5 sm:gap-3 transition-all duration-500 opacity-0 translate-y-3">
+                <div
+                  class="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-light-purple text-lolly-purple flex items-center justify-center text-xs font-gilroy-bold shrink-0">
+                  ✦
+                </div>
+                <div
+                  class="bg-slate-100 text-slate-600 px-3.5 sm:px-4 py-2.5 sm:py-3 rounded-2xl rounded-tl-xs flex items-center gap-2">
+                  <span class="text-xs font-gilroy-medium">Ana is thinking</span>
+                  <span class="flex items-center gap-1">
+                    <span class="w-1 h-1 rounded-full bg-lolly-purple animate-bounce"
+                      style="animation-delay: 0s;"></span>
+                    <span class="w-1 h-1 rounded-full bg-lolly-purple animate-bounce"
+                      style="animation-delay: 0.2s;"></span>
+                    <span class="w-1 h-1 rounded-full bg-lolly-purple animate-bounce"
+                      style="animation-delay: 0.4s;"></span>
+                  </span>
+                </div>
+              </div>
+
+              <!-- Ana AI Result -->
+              <div id="ana-response-card"
+                class="self-start max-w-[95%] sm:max-w-[90%] transition-all duration-500 opacity-0 translate-y-3 hidden">
+                <div class="flex items-start gap-2.5 sm:gap-3 w-full">
+                  <div
+                    class="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-light-purple text-lolly-purple flex items-center justify-center text-xs font-gilroy-bold shrink-0 mt-1">
+                    ✦
+                  </div>
+                  <div
+                    class="flex-1 min-w-0 bg-slate-50 border border-slate-200/70 p-3.5 sm:p-4 rounded-2xl rounded-tl-xs shadow-xs space-y-3">
+                    <p class="text-xs sm:text-sm text-slate-700 font-gilroy-medium leading-relaxed">
+                      Based on performance, audience fit, and relationship strength, I've found <strong
+                        class="text-slate-900 font-gilroy-bold">3 high-potential creators</strong> for your next
+                      campaign:
+                    </p>
+
+                    <div class="space-y-2 pt-1">
+
+                      <!-- Creator 1 -->
+                      <div
+                        class="flex-between-center p-2.5 rounded-xl bg-white border border-slate-100 shadow-2xs hover:border-lolly-purple/30 transition-colors">
+                        <div class="flex items-center gap-2.5 min-w-0">
+                          <img src="./assets/images/maya.jpg" alt="Maya"
+                            class="w-8 h-8 rounded-full object-cover shrink-0" />
+                          <div class="min-w-0">
+                            <div class="flex items-center gap-1">
+                              <span class="font-gilroy-bold text-slate-900 text-xs">Maya Chen</span>
+                              <span class="text-[10px] text-blue-500 font-gilroy-bold">✓</span>
+                            </div>
+                            <span class="text-[10px] text-slate-400 font-gilroy-medium block truncate">• 284K</span>
+                          </div>
+                        </div>
+                        <span
+                          class="px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-600 text-[10px] font-gilroy-bold shrink-0 ml-2">↑
+                          62%</span>
+                      </div>
+
+                      <!-- Creator 2 -->
+                      <div
+                        class="flex-between-center p-2.5 rounded-xl bg-white border border-slate-100 shadow-2xs hover:border-lolly-purple/30 transition-colors">
+                        <div class="flex items-center gap-2.5 min-w-0">
+                          <img src="./assets/images/john.png" alt="john"
+                            class="w-8 h-8 rounded-full object-cover shrink-0" />
+                          <div class="min-w-0">
+                            <div class="flex items-center gap-1">
+                              <span class="font-gilroy-bold text-slate-900 text-xs">John Ray</span>
+                              <span class="text-[10px] text-blue-500 font-gilroy-bold">✓</span>
+                            </div>
+                            <span class="text-[10px] text-slate-400 font-gilroy-medium block truncate">• 512K</span>
+                          </div>
+                        </div>
+                        <span
+                          class="px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-600 text-[10px] font-gilroy-bold shrink-0 ml-2">↑
+                          48%</span>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Chatbot Input Footer -->
+            <div class="p-3 sm:p-4 border-t border-slate-100 bg-white flex items-center gap-2.5 sm:gap-3">
+              <div
+                class="flex-1 text-xs h-10 ps-3 flex items-center rounded-lg sm:text-sm text-tertiary bg-slate-50 border border-slate-200">
+                Ask
+                Ana
+                anything...</div>
+              <button
+                class="w-8 h-8 rounded-full bg-lolly-purple text-white flex items-center justify-center text-sm font-gilroy-bold shadow-md hover:bg-dark-purple transition-colors shrink-0">
+                ↑
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Built for Teams -->
+  <section id="built-for-teams" class="relative bg-light-purple scroll-mt-20">
+    <div id="teams-scroll-track" class="relative min-h-[300vh] lg:min-h-[340vh]">
+
+      <div id="teams-sticky-container" class="sticky top-10 md:top-5 lg:top-0 w-full py-16 lg:py-24 z-20">
+
+        <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+
+          <div class="text-left max-w-4xl mb-5 sm:mb-8">
+            <h2 class="h2-title text-3xl md:text-5xl leading-[1.12] mb-6">
+              How Your Team Can Turn <br class="hidden sm:inline" />
+              Creator Relationships Into Repeatable Growth
+            </h2>
+          </div>
+
+          <!-- Main Content -->
+          <div class="w-full bg-white p-4 ps-2 md:p-6 rounded-2xl ">
+
+            <div class="flex items-stretch gap-3 sm:gap-4 md:gap-8 w-full">
+
+              <!-- MOBILE LEFT VERTICAL STEPPER-->
+              <div class="flex md:hidden flex-col self-stretch shrink-0 relative pl-4 my-1">
+                <div class="absolute top-0 bottom-0 left-0 w-[2px] bg-slate-200/80 rounded-full"></div>
+
+                <!-- Step Items 1 to 5-->
+                <button type="button" data-team-index="0"
+                  class="team-step-circle flex-1 flex items-center font-gilroy-bold text-lolly-purple text-left focus:outline-none cursor-pointer">
+                  <span class="team-step-pill opacity-100"></span>
+                  1
+                </button>
+                <button type="button" data-team-index="1"
+                  class="team-step-circle flex-1 flex items-center font-semibold text-slate-400 hover:text-lolly-purple text-left focus:outline-none cursor-pointer">
+                  <span class="team-step-pill opacity-0 scale-y-50"></span>
+                  2
+                </button>
+                <button type="button" data-team-index="2"
+                  class="team-step-circle flex-1 flex items-center font-semibold text-slate-400 hover:text-lolly-purple text-left focus:outline-none cursor-pointer">
+                  <span class="team-step-pill opacity-0 scale-y-50"></span>
+                  3
+                </button>
+                <button type="button" data-team-index="3"
+                  class="team-step-circle flex-1 flex items-center font-semibold text-slate-400 hover:text-lolly-purple text-left focus:outline-none cursor-pointer">
+                  <span class="team-step-pill opacity-0 scale-y-50"></span>
+                  4
+                </button>
+                <button type="button" data-team-index="4"
+                  class="team-step-circle flex-1 flex items-center font-semibold text-slate-400 hover:text-lolly-purple text-left focus:outline-none cursor-pointer">
+                  <span class="team-step-pill opacity-0 scale-y-50"></span>
+                  5
+                </button>
+              </div>
+
+              <!-- DESKTOP & TABLET LEFT NAVIGATION-->
+              <div
+                class="hidden md:flex flex-col w-[200px] lg:w-[260px] xl:w-[280px] shrink-0 space-y-1.5 sm:space-y-2 pr-3 lg:pr-4 border-r border-slate-100">
+                <button type="button" data-team-index="0"
+                  class="team-nav-btn bg-light-purple active text-slate-900 shadow-xs">
+                  <span>Influencer Teams</span>
+                  <span class="team-nav-arrow">→</span>
+                </button>
+                <button type="button" data-team-index="1"
+                  class="team-nav-btn text-slate-700 hover:text-lolly-purple hover:bg-slate-50">
+                  <span>Brand Teams</span>
+                  <span class="team-nav-arrow opacity-0">→</span>
+                </button>
+                <button type="button" data-team-index="2"
+                  class="team-nav-btn text-slate-700 hover:text-lolly-purple hover:bg-slate-50">
+                  <span>Content Teams</span>
+                  <span class="team-nav-arrow opacity-0">→</span>
+                </button>
+                <button type="button" data-team-index="3"
+                  class="team-nav-btn text-slate-700 hover:text-lolly-purple hover:bg-slate-50">
+                  <span>Marketing Leaders</span>
+                  <span class="team-nav-arrow opacity-0">→</span>
+                </button>
+                <button type="button" data-team-index="4"
+                  class="team-nav-btn text-slate-700 hover:text-lolly-purple hover:bg-slate-50">
+                  <span>Partnership Teams</span>
+                  <span class="team-nav-arrow opacity-0">→</span>
+                </button>
+              </div>
+
+              <!-- RIGHT SECTION-->
+              <div class="flex-1 min-w-0 w-full h-full flex flex-col justify-center self-stretch">
+                <div class="grid grid-cols-1 grid-rows-1 relative w-full h-full items-stretch">
+
+                  <!-- PANEL 1-->
+                  <div id="team-panel-0" class="team-panel opacity-100 z-10">
+                    <div
+                      class="team-card bg-linear-to-br from-[#FAF8FF] via-[#F3EDFF] to-[#ECE2FE] border-purple-100/80">
+                      <div class="team-card-content">
+                        <h3 class="team-card-title">
+                          Influencer Teams
+                        </h3>
+                        <p class="description">
+                          See the full history and performance of every creator relationship.
+                        </p>
+                      </div>
+                      <div class="team-card-media">
+                        <img
+                          src="https://res.cloudinary.com/ddzrfwfsl/image/upload/q_auto,f_auto/v1790327242/Influencer_teams_enobkw.png"
+                          alt="Influencer Teams" class="team-card-img" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- PANEL 2 -->
+                  <div id="team-panel-1" class="team-panel opacity-0 pointer-events-none z-0">
+                    <div class="team-card bg-linear-to-br from-[#FAF8FF] via-[#EEF4FF] to-[#E5EDFF] border-blue-100/80">
+                      <div class="team-card-content">
+                        <h3 class="team-card-title">
+                          Brand Teams
+                        </h3>
+                        <p class="description">
+                          Identify creators worth nurturing, reactivating, and investing in.
+                        </p>
+                      </div>
+                      <div class="team-card-media">
+                        <img
+                          src="https://res.cloudinary.com/ddzrfwfsl/image/upload/q_auto,f_auto/v1790327241/Brand_teams_ue1umk.png"
+                          alt="Brand Teams" class="team-card-img" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- PANEL 3 -->
+                  <div id="team-panel-2" class="team-panel opacity-0 pointer-events-none z-0">
+                    <div class="team-card bg-linear-to-br from-[#FAF8FF] via-[#E8F8F5] to-[#DCF4F0] border-teal-100/80">
+                      <div class="team-card-content">
+                        <h3 class="team-card-title">
+                          Content Teams
+                        </h3>
+                        <p class="description">
+                          Track creator content, assets, usage, and rights in context.
+                        </p>
+                      </div>
+                      <div class="team-card-media">
+                        <img
+                          src="https://res.cloudinary.com/ddzrfwfsl/image/upload/q_auto,f_auto/v1790327242/Content_teams_bzuasl.png"
+                          alt="Content Teams" class="team-card-img" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- PANEL 4-->
+                  <div id="team-panel-3" class="team-panel opacity-0 pointer-events-none z-0">
+                    <div
+                      class="team-card bg-linear-to-br from-[#FAF8FF] via-[#F3EDFF] to-[#ECE2FE] border-purple-200/80">
+                      <div class="team-card-content">
+                        <h3 class="team-card-title">
+                          Marketing Leaders
+                        </h3>
+                        <p class="description">
+                          Understand creator value and ROI across campaigns and channels.
+                        </p>
+                      </div>
+                      <div class="team-card-media">
+                        <img
+                          src="https://res.cloudinary.com/ddzrfwfsl/image/upload/q_auto,f_auto/v1790327243/Marketing_leaders_dzkyew.png"
+                          alt="Marketing Leaders" class="team-card-img" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- PANEL 5 -->
+                  <div id="team-panel-4" class="team-panel opacity-0 pointer-events-none z-0">
+                    <div class="team-card bg-linear-to-br from-[#FAF8FF] via-[#EFF6FF] to-[#E2E8F0] border-blue-200/80">
+                      <div class="team-card-content">
+                        <h3 class="team-card-title">
+                          Partnership Teams
+                        </h3>
+                        <p class="description">
+                          Build stronger relationships using engagement and performance insights.
+                        </p>
+                      </div>
+                      <div class="team-card-media">
+                        <img
+                          src="https://res.cloudinary.com/ddzrfwfsl/image/upload/q_auto,f_auto/v1790327245/Partnership_teams_ukrbvk.png"
+                          alt="Partnership Teams" class="team-card-img" />
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 5: FAQ -->
+  <section id="faq" class="py-12 sm:py-16 lg:py-20 relative overflow-hidden scroll-mt-20">
+
+    <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+
+      <div class="text-left md:text-center  max-w-3xl mx-auto  mb-10 sm:mb-14">
+        <!-- Title -->
+        <h2 class="h2-title text-3xl md:text-5xl leading-[1.12] mb-6">
+          Questions we get asked first
+        </h2>
+
+      </div>
+
+      <!-- FAQ ACCORDION LIST -->
+      <div class="border-t max-w-5xl mx-auto border-b border-slate-300 divide-y divide-slate-300">
+
+        <!-- FAQ Item 1 -->
+        <div class="faq-item">
+          <button type="button" class="accordion-header faq-toggle" aria-expanded="false">
+            <span class="accordion-title faq-question-text">
+              What is creator relationship management?
+            </span>
+            <span class="accordion-icon faq-icon">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </span>
+          </button>
+          <div class="accordion-body faq-answer">
+            <p class="accordion-description">
+              Creator relationship management helps brands organize and manage creator partnerships across outreach,
+              engagement, campaigns, content, and performance.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 2 -->
+        <div class="faq-item">
+          <button type="button" class="accordion-header faq-toggle" aria-expanded="false">
+            <span class="accordion-title faq-question-text">
+              How can brands manage creator relationships at scale?
+            </span>
+            <span class="accordion-icon faq-icon">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </span>
+          </button>
+          <div class="accordion-body faq-answer">
+            <p class="accordion-description">
+              A centralized platform brings creator profiles, relationship history, engagement terms, campaign activity,
+              and performance into one connected view.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 3 -->
+        <div class="faq-item">
+          <button type="button" class="accordion-header faq-toggle" aria-expanded="false">
+            <span class="accordion-title faq-question-text">
+              How do you measure creator partnership ROI?
+            </span>
+            <span class="accordion-icon faq-icon">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </span>
+          </button>
+          <div class="accordion-body faq-answer">
+            <p class="accordion-description">
+              Connect creator investment with campaign performance and business outcomes to understand which
+              partnerships are driving the most value.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 4 -->
+        <div class="faq-item">
+          <button type="button" class="accordion-header faq-toggle" aria-expanded="false">
+            <span class="accordion-title faq-question-text">
+              How can teams identify high-value creators?
+            </span>
+            <span class="accordion-icon faq-icon">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </span>
+          </button>
+          <div class="accordion-body faq-answer">
+            <p class="accordion-description">
+              Analyze creator performance, audience relevance, engagement, relationship history, and campaign results to
+              identify creators worth investing in.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 5 -->
+        <div class="faq-item">
+          <button type="button" class="accordion-header faq-toggle" aria-expanded="false">
+            <span class="accordion-title faq-question-text">
+              How can brands build long-term creator partnerships?
+            </span>
+            <span class="accordion-icon faq-icon">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </span>
+          </button>
+          <div class="accordion-body faq-answer">
+            <p class="accordion-description">
+              Track relationship history, engagement, performance, and past campaign context to identify creators worth
+              nurturing and reactivating.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 6 -->
+        <div class="faq-item">
+          <button type="button" class="accordion-header faq-toggle" aria-expanded="false">
+            <span class="accordion-title faq-question-text">
+              How can AI help manage creator relationships?
+            </span>
+            <span class="accordion-icon faq-icon">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </span>
+          </button>
+          <div class="accordion-body faq-answer">
+            <p class="accordion-description">
+              AI can analyze creator and campaign data, summarize relationship context, surface performance insights,
+              and recommend where teams should focus next.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 7 -->
+        <div class="faq-item">
+          <button type="button" class="accordion-header faq-toggle" aria-expanded="false">
+            <span class="accordion-title faq-question-text">
+              What can Ana do for creator relationship management?
+            </span>
+            <span class="accordion-icon faq-icon">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </span>
+          </button>
+          <div class="accordion-body faq-answer">
+            <p class="accordion-description">
+              Ana helps teams understand creator relationships, track performance, analyze partnership data, and
+              identify opportunities to improve creator ROI.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 8 -->
+        <div class="faq-item">
+          <button type="button" class="accordion-header faq-toggle" aria-expanded="false">
+            <span class="accordion-title faq-question-text">
+              What does a creator relationship management platform track?
+            </span>
+            <span class="accordion-icon faq-icon">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </span>
+          </button>
+          <div class="accordion-body faq-answer">
+            <p class="accordion-description">
+              It can track creator profiles, outreach, conversations, engagement terms, content, usage rights, campaign
+              activity, performance, and relationship history.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 6: FINAL CTA-->
+  <section class="py-16 sm:py-20 lg:py-24 relative overflow-hidden bg-light-purple scroll-mt-20">
+
+    <div
+      class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full flex flex-col md:flex-row items-center justify-between gap-10 md:gap-16">
+      <div class="max-w-2xl flex flex-col items-start text-left">
+
+        <h2 class="h2-title text-3xl md:text-5xl mb-6">
+          Build Smarter Creator <br />Relationships With AI
+        </h2>
+
+        <p class="description">
+          Let Lolly's AI bring creator history, engagement, content, and performance into one connected workflow so your
+          team can build stronger partnerships and invest with confidence.
+        </p>
+
+        <div class="flex flex-wrap items-center gap-4">
+          <a href="#" class="button-primary ">
+            Book a demo <span class="text-lg">&rarr;</span>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Ana render animation -->
+      <div class="hidden lg:block relative shrink-0 flex items-center justify-center my-4 md:my-0 mx-auto">
+        <!-- Responsive Orb Container -->
+        <div class="md:w-56 md:h-56 relative z-10 rounded-full overflow-hidden">
+          <div class="w-full h-full rounded-full overflow-hidden relative"
+            style="box-shadow: inset 0 0 0 1px rgba(106,75,242,0.2);">
+            <span
+              style="display:block;width:100%;height:100%;position:relative;overflow:hidden;filter:brightness(2.118) invert(1);">
+              <span style="position:absolute;inset:0;isolation:isolate;background:#000000">
+                <video preload="auto" autoplay loop muted playsinline poster="/assets/images/favicon.png"
+                  style="display:block;width:100%;height:100%;object-fit:cover;filter:grayscale(1)">
+                  <source
+                    src="https://res.cloudinary.com/ddzrfwfsl/video/upload/q_auto,f_auto,w_800/v1790328069/orb-vp9_a0ujdf.webm"
+                    type="video/webm">
+                  <source
+                    src="https://res.cloudinary.com/ddzrfwfsl/video/upload/q_auto,f_auto,w_800/v1790328069/orb-vp9_a0ujdf.webm"
+                    type="video/mp4">
+                </video>
+                <span aria-hidden="true"
+                  style="position:absolute;inset:0;background:rgb(211, 255, 18);mix-blend-mode:multiply;pointer-events:none"></span>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#181622] text-slate-300 relative overflow-hidden border-t border-slate-800/80">
+    <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-14 relative z-10 w-full">
+
+      <!-- Top Row-->
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-4">
+        <!-- Brand Logo -->
+        <div class="flex items-center justify-center md:justify-start md:w-1/4">
+          <a href="#" class="flex items-center gap-1.5 text-lg font-gilroy-bold tracking-tight text-white">
+            <span class="text-[28px]">lolly</span>
+          </a>
+        </div>
+
+        <!-- Center Nav Links -->
+        <nav
+          class="flex flex-wrap items-center justify-center gap-6 sm:gap-8 lg:gap-10 text-sm font-gilroy-medium text-slate-300 md:w-2/4">
+          <a href="#why-it-matters" class="hover:text-white transition-colors">Why it Matters</a>
+          <a href="#how-it-works" class="hover:text-white transition-colors">How it Works</a>
+          <a href="#meet-ana" class="hover:text-white transition-colors">Meet Ana</a>
+          <a href="#built-for-teams" class="hover:text-white transition-colors">Built for Teams</a>
+        </nav>
+
+        <!-- Social Icons -->
+        <div class="flex items-center justify-center md:justify-end gap-5 text-slate-400 md:w-1/4">
+          <!-- Facebook -->
+          <a href="#" aria-label="Facebook" class="text-slate-400 hover:text-white transition-colors">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+            </svg>
+          </a>
+          <!-- Twitter / X -->
+          <a href="#" aria-label="Twitter" class="text-slate-400 hover:text-white transition-colors">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+              <path
+                d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+            </svg>
+          </a>
+          <!-- Instagram -->
+          <a href="#" aria-label="Instagram" class="text-slate-400 hover:text-white transition-colors">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" viewBox="0 0 24 24">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <!-- LinkedIn -->
+          <a href="#" aria-label="LinkedIn" class="text-slate-400 hover:text-white transition-colors">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+              <path
+                d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.25V10.9H6.46M7.86 6.72a1.47 1.47 0 1 0 0 2.94 1.47 1.47 0 0 0 0-2.94Z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-800/80 my-8 sm:my-10"></div>
+
+      <!-- Copyright & Legal Links -->
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs sm:text-sm text-slate-400">
+        <p class="text-slate-400">© 2026 Lolly. All rights reserved.</p>
+        <div class="flex items-center gap-6 sm:gap-8  text-slate-400">
+          <a href="#" class="hover:text-white transition-colors">Privacy</a>
+          <a href="#" class="hover:text-white transition-colors">Terms</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
